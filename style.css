@@ -1,0 +1,294 @@
+
+
+*{
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c2beb1;
+}
+ header {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 5%;
+    margin-top:15px ;
+    
+    position: fixed;
+
+   
+}
+
+.logo{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu{
+    display: flex;
+    margin-right: 170px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #e67e22;
+}
+
+/* Icônes au-dessus des liens */
+.menu ul li a img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+.menu ul li a:hover img {
+    transform: scale(1.1);
+}
+
+
+
+.contener{
+    display: flex;
+      
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+.bloc-image img{
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden; 
+    height: auto;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    display: block;
+    border: 10px solid white;
+    margin-top: 100px;
+}
+
+.bloc-image {
+   text-align: center;
+}
+
+.contener .bloc-image h3{
+    color: blue;
+}
+
+.contener .bloc-image h4{
+    color: red;
+    font-size: 20px;
+}
+
+.contener .bloc-image h5{
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.second-contener .bloc-image h3{
+    color: red;
+}
+
+.second-contener .bloc-image h4{
+    font-size: 20px;
+}
+
+.second-contener .bloc-image h5{
+    color: blue;
+    font-size: 20px;
+}
+
+.texte{
+    display: flex;
+    
+    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.bloc-texte{
+    padding: 15px; /* Plus d’espace pour le contenu */
+    text-align: center;
+    width: 200px; /* Largeur fixe pour éviter les problèmes */
+    min-height: 150px; /* Hauteur minimale pour équilibrer */
+    background-color: #f8fbff; /* Couleur douce */
+    border-radius: 10px; /* Coins arrondis plus prononcés */
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1); /* Ombre plus douce */
+    border: 1px solid #d1e3ff; /* Bordure légère pour l’effet */
+    font-family: 'Arial', sans-serif; /* Typographie claire */
+    font-size: 14px; /* Taille de texte lisible */
+    color: #333; /* Texte foncé pour le contraste */
+    display: flex; /* Centrage du contenu */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-texte p{
+    width: 98%;
+    margin-top: 10px;
+    border-bottom: 2px dashed #333;
+    margin-bottom: 10px;
+    margin: 20px 0px;
+}
+
+.bloc-texte h2{
+    font-size: 15px;
+}
+
+.bloc-texte h3{
+    color:blue ;
+}
+
+.bloc-texte h4{
+    color:red ;
+    font-size: 15px;
+}
+
+.bloc-texte h5{
+    color:green ;
+    font-size: 15px;
+}
+
+.second-contener{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+.second-texte{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px; 
+
+}
+
+.second-texte .bloc-texte h2{
+    color: #E4405F;
+}
+
+.second-texte .bloc-texte h3{
+    color:goldenrod;
+}
+
+.second-texte .bloc-texte h4{
+    color: darkorchid;
+}
+hr{
+    
+    width: 97%;
+    margin: 20px auto; /* Centre automatiquement */
+    border: 2px dashed #333;
+
+}
+
+    
+
+
+footer{
+    font-size: 15px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer p{
+
+    border-bottom: 2px dashed #333;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    
+}
+
+.group nav a:hover {
+    color: #e67e22;
+}
+
+.icons a{
+    font-size: 30px;
+    margin: 0 10px;
+}
+.icons a:hover{
+    color: blue;
+}
+
+.lab{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Amazee{
+    display: block;
+    background-color: beige;
+    width: 30%;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.lab h1{
+    color: #333;
+}
+
+.Amazee p{
+    color: #E4405F;
+}
+
+.Amazee h3{
+    color: blue;
+}
+
+.Amazee span{
+    color: red;
+}
