@@ -11,6 +11,9 @@ body{
     background-color: #c2beb1;
 }
  header {
+    background-image: url(./images/pexels-pramodtiwari-13988977.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: auto;
     top: 0;
@@ -143,7 +146,7 @@ body{
     padding: 15px; /* Plus d’espace pour le contenu */
     text-align: center;
     width: 200px; /* Largeur fixe pour éviter les problèmes */
-    min-height: 150px; /* Hauteur minimale pour équilibrer */
+    /*min-height:150px;;  Hauteur minimale pour équilibrer */
     background-color: #f8fbff; /* Couleur douce */
     border-radius: 10px; /* Coins arrondis plus prononcés */
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1); /* Ombre plus douce */
@@ -157,31 +160,37 @@ body{
     align-items: center;
 }
 
-.bloc-texte p{
+.bloc-texte p {
     width: 98%;
     margin-top: 10px;
     border-bottom: 2px dashed #333;
-    margin-bottom: 10px;
-    margin: 20px 0px;
+    padding-bottom: 10px;  /* Ajoute un espace entre le texte et le trait */
+    margin-bottom: 20px;
+}
+
+.bloc-texte span{
+    margin-left: 10px;
+
 }
 
 .bloc-texte h2{
     font-size: 15px;
+    color: blue;
+    margin-bottom: 5px;
 }
 
 .bloc-texte h3{
-    color:blue ;
+    color:red ;
+    margin-bottom: 5px;
 }
 
 .bloc-texte h4{
-    color:red ;
-    font-size: 15px;
-}
-
-.bloc-texte h5{
     color:green ;
     font-size: 15px;
+    margin-bottom: 5px;
 }
+
+
 
 .second-contener{
     display: flex;
@@ -197,16 +206,30 @@ body{
 
 }
 
+.second-texte .bloc-texte{
+    height: 280px;
+}
+
+.second-texte .bloc-texte:nth-child(2) {
+    height: 255px; /* Ajuste la hauteur selon tes besoins */
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    
+}
 .second-texte .bloc-texte h2{
     color: #E4405F;
+    margin-bottom: 5px;
 }
 
 .second-texte .bloc-texte h3{
     color:goldenrod;
+    
+    margin-bottom: 5px;
+    
 }
 
 .second-texte .bloc-texte h4{
     color: darkorchid;
+    margin-bottom: 5px;
 }
 hr{
     
@@ -271,6 +294,7 @@ nav a{
     display: block;
     background-color: beige;
     width: 30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px 20px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -278,17 +302,22 @@ nav a{
 }
 
 .lab h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #333;
 }
 
 .Amazee p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #E4405F;
 }
 
 .Amazee h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: blue;
+    font-size: 15px;
 }
 
 .Amazee span{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
 }
