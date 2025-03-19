@@ -10,23 +10,19 @@
 body{
     background-color: #c2beb1;
 }
- header {
-    background-image: url(./images/pexels-pramodtiwari-13988977.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+    background-color: #c2beb9; 
     width: 100%;
     height: auto;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Espacement entre logo et navigation */
     align-items: center;
     padding: 15px 5%;
-    margin-top:15px ;
-    
-    position: fixed;
-
-   
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    z-index: 1000; /* Assure que le header reste au-dessus du contenu */
 }
 
 .logo{
